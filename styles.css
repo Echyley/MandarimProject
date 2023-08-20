@@ -39,11 +39,11 @@ p {
     font-size: 13px;
 }
 
-header {
+.header {
     height: auto;
 }
 
-header img {
+.header img {
     max-width: 100%;
     height: auto;
 }
