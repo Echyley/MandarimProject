@@ -40,13 +40,14 @@ p {
 }
 
 header {
+    max-width: 100%;
     max-height: 224px;
     color: rgba(0, 0, 0, 0.829);
     padding-top: 25px;
 }
 
 header img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .add1 img {
@@ -128,6 +129,9 @@ footer p {
 @media (max-width: 480px) {
     header h1 {
         font-size: 24px;
+    }
+    .content {
+        margin: 10px;
     }
 }
 
