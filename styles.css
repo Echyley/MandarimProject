@@ -39,11 +39,11 @@ p {
     font-size: 13px;
 }
 
-.header {
+header {
     height: auto;
 }
 
-.header img {
+header img {
     max-width: 100%;
     height: auto;
 }
@@ -132,6 +132,10 @@ footer p {
 
 /* Smartphones em orientação retrato */
 @media (max-width: 480px) {
+    header {
+        margin-bottom: 20px;
+    }
+
     .content {
         margin: 10px;
     }
