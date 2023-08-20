@@ -54,6 +54,7 @@ header img {
 
 .add1 img {
     max-width: 100%;
+    margin-top: 74px;
 }
 
 .add2and3 {
@@ -61,14 +62,11 @@ header img {
 }
 
 .add {
-    padding-left: 40px;
-    padding-right: 40px;
     flex-direction: column;
 }
 
 .add2and3 .add {
     flex-basis: calc(50% - 10px);
-    margin-right: 0;
 }
 
 .add2and3 .add:first-child {
@@ -95,7 +93,6 @@ header img {
 
 footer {
     margin: auto;
-    width: 680px;
     max-height: 200px;
     max-width: 100%;
     padding-top: 10px;
@@ -145,8 +142,12 @@ footer p {
 
 /* Smartphones em orientação retrato */
 @media (max-width: 480px) {
-    header {
-        margin-bottom: 20px;
+    header img {
+        height: 168px;
+    }
+
+    .add1 img {
+        margin-top: 0;
     }
 
     .content {
