@@ -134,7 +134,15 @@ footer p {
 /* Tablets e dispositivos com largura maior que 480px */
 @media (min-width: 481px) and (max-width: 768px) {
     .main {
+        max-width: 800px;
+        margin: 0 auto;
         padding: 0;
+    }
+
+    .add2and3 .add img {
+        max-width: 50%;
+        height: 250px;
+        margin-bottom: 10px;
     }
 
     .content {
