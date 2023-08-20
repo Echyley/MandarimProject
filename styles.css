@@ -133,17 +133,26 @@ footer p {
 
 /* Smartphones em orientação retrato */
 @media (max-width: 480px) {
-    .content {
-        margin: 10px;
-    }
-
-    .content h2, .content p {
-        padding: 10px 0;
+    .main {
+        padding: 20px;
     }
 
     header h1 {
         font-size: 24px;
     }
+
+    .content {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .content h2, .content p {
+        font-size: 16px;
+    }
+
+    header img {
+        max-width: 80%;
+
 }
 
 /* Tablets e dispositivos com largura maior que 480px */
