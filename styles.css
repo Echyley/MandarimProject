@@ -124,8 +124,23 @@ footer p {
 
 /* Responsividade */
 
+/* Para telas extremamente estreitas */
+@media (max-width: 320px) {
+    .content h2, .content p {
+        font-size: 14px;
+    }
+}
+
 /* Smartphones em orientação retrato */
 @media (max-width: 480px) {
+    .content {
+        margin: 10px;
+    }
+
+    .content h2, .content p {
+        padding: 10px 0;
+    }
+
     header h1 {
         font-size: 24px;
     }
@@ -134,19 +149,7 @@ footer p {
 /* Tablets e dispositivos com largura maior que 480px */
 @media (min-width: 481px) and (max-width: 768px) {
     .main {
-        max-width: 800px;
-        margin: 0 auto;
         padding: 0;
-    }
-
-    .add2and3 .add img {
-        max-width: 50%;
-        height: 250px;
-        margin-bottom: 10px;
-    }
-
-    .content {
-        margin: 0;
     }
 
     header h1 {
@@ -162,17 +165,6 @@ footer p {
 
     .main {
         max-width: 800px;
-        margin: 0 auto;
-    }
-}
-
-@media (min-width: 1080px) {
-    header h1 {
-        font-size: 52px;
-    }
-
-    .main {
-        max-width: 1000px;
         margin: 0 auto;
     }
 }
