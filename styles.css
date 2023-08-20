@@ -40,12 +40,12 @@ p {
 }
 
 header {
-    max-height: 29vh;
-    padding-top: 25px;
+    height: auto;
 }
 
 header img {
     max-width: 100%;
+    height: auto;
 }
 
 .add1 img {
@@ -132,19 +132,6 @@ footer p {
 
 /* Smartphones em orientação retrato */
 @media (max-width: 480px) {
-    header {
-        padding-top: 18px;
-    }
-    
-    header h1 {
-        font-size: 24px;
-    }
-    
-    header img {
-        max-width: 100%;
-        height: auto;
-    }
-    
     .content {
         margin: 10px;
     }
@@ -160,17 +147,10 @@ footer p {
     .main {
         padding: 0;
     }
-
-    header h1 {
-        font-size: 32px;
-    }
 }
 
 /* Dispositivos com largura maior que 768px */
 @media (min-width: 769px) {
-    header h1 {
-        font-size: 48px;
-    }
 
     .main {
         max-width: 800px;
