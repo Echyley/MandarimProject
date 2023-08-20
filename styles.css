@@ -133,25 +133,26 @@ footer p {
 
 /* Smartphones em orientação retrato */
 @media (max-width: 480px) {
-    .main {
-        padding: 20px;
+    header {
+        max-height: 300px;
+        color: rgba(0, 0, 0, 0.829);
+        padding-top: 25px;
     }
-
+    
     header h1 {
         font-size: 24px;
     }
-
+    
+    header img {
+        max-width: 100%;
+    }
     .content {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin: 10px;
     }
 
     .content h2, .content p {
-        font-size: 16px;
+        padding: 10px 0;
     }
-
-    header img {
-        max-width: 80%;
 
 }
 
