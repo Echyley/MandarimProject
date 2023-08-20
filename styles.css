@@ -40,7 +40,7 @@ p {
 }
 
 header {
-    max-height: 224px;
+    max-height: 29vh;
     padding-top: 25px;
 }
 
@@ -132,14 +132,8 @@ footer p {
 
 /* Smartphones em orientação retrato */
 @media (max-width: 480px) {
-    .main {
-        max-width: 430px;
-        margin: 0 auto;
-    }
-
     header {
-        max-height: 300px;
-        padding-top: 25px;
+        padding-top: 18px;
     }
     
     header h1 {
