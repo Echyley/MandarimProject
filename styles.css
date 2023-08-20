@@ -133,6 +133,14 @@ footer p {
 
 /* Tablets e dispositivos com largura maior que 480px */
 @media (min-width: 481px) and (max-width: 768px) {
+    .main {
+        padding: 0;
+    }
+
+    .content {
+        margin: 0;
+    }
+
     header h1 {
         font-size: 32px;
     }
