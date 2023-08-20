@@ -153,7 +153,8 @@ footer p {
     }
 
     .main {
-        max-width: 800px;
+        max-width: 100vh;
         margin: 0 auto;
+        padding: 0;
     }
 }
