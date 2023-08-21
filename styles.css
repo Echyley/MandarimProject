@@ -13,11 +13,10 @@ body {
 .main {
     background-color: white;
     max-width: 2000px;
-    width: 100%;
+    width: fit-content;
 }
 
 .content {
-    margin: auto;
     width: 680px;
     max-width: 100%;
 }
@@ -32,6 +31,15 @@ p {
     padding: 0;
 }
 
+section{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+section p {
+    margin: 0;
+}
+
 .font {
     color: rgba(0, 0, 0, 0.575);
     padding-top: 15px;
@@ -40,6 +48,7 @@ p {
 }
 
 header {
+    width: 100%;
     margin: auto;
     max-width: fit-content;
     height: 150px;
@@ -74,9 +83,9 @@ header img {
 }
 
 .add2and3 .add img {
-    width: 100%;
+    width: 500px;
     max-width: 100%;
-    height: 250px;
+    height: 230px;
     margin-bottom: 10px;
 }
 
@@ -142,16 +151,14 @@ footer p {
 
 /* Smartphones em orientação retrato */
 @media (max-width: 480px) {
-    header img {
-        height: 168px;
-    }
-
-    .add1 img {
-        margin-top: 0;
+  
+    header{
+        max-height: 100%;
     }
 
     .content {
         margin: 10px;
+        padding: 10px;
     }
 
     .content h2,
