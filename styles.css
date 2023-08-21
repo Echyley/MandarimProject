@@ -172,6 +172,11 @@ footer p {
         height: 235px;
     }
 
+    .add1 img {
+        max-width: 100%;
+        margin-top: 74px;
+    }
+
     section {
         padding: 10px;
     }
