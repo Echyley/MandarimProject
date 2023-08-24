@@ -92,7 +92,7 @@ header img {
 
 
 .add h2 {
-    max-width: 300px;
+    max-width: 500px;
     font-size: 18px;
 }
 
@@ -183,6 +183,7 @@ footer p {
         max-height: 135px;
         margin-bottom: 10px;
     }
+
 
 }
 
