@@ -147,10 +147,6 @@ footer p {
         padding: 0;
     }
 
-    header img {
-        height: 224px;
-    }
-
     .add1 img {
         max-width: 100%;
         margin-top: 60px;
@@ -169,16 +165,16 @@ footer p {
     }
 
     header img {
-        height: 235px;
+        height: 200px;
     }
 
     .add1 img {
         max-width: 100%;
-        margin-top: 74px;
+        margin-top: 40px;
     }
 
     section {
-        padding: 10px;
+        padding: 20px;
     }
 
     .add2and3 .add img {
